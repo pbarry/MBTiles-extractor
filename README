@@ -1,0 +1,11 @@
+Step 1: Save convert.py into the same folder as your .mbtiles file
+Step 2: Make sure python is installed
+Step 3: In terminal, cd into that folder
+Step 4: Run this:
+
+python convert.py filename.mbtiles
+
+That's it! It should generate a folder called filename filled with PNGs that contain the data in the mbtiles archive.
+
+Caveat: I understand that some mbtiles files have JPGs, not PNG. I haven't bothered to detect that yet, though. I just write all of the files with a .png extension.
+
