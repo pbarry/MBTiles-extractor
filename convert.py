@@ -43,7 +43,7 @@ for row in cursor:
   setDir(str(row[0]))
   setDir(str(row[1]))
   # TODO: Should we support jpg too?
-  output_file = open(str(row[2]) + '.png', 'w')
+  output_file = open(str(row[2]) + '.png', 'wb')
   output_file.write(row[3])
   output_file.close()
   os.chdir('..')
