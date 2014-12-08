@@ -8,5 +8,4 @@ python convert.py filename.mbtiles
 That's it! It should generate a folder called filename filled with PNGs that contain the data in the mbtiles archive.
 
 Notes:
-- I understand that some mbtiles files have JPGs, not PNG. I haven't bothered to detect that yet, though. I just write all of the files with a .png extension.
 - The Y axis values are set from a top left origin, which is TMS standard. This is not the default on many other mapping applications, like the google maps API or Leaflet, which require an option to use "TMS" scheme instead of "XYZ".
